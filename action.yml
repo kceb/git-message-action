@@ -1,0 +1,12 @@
+name: 'Git Message'
+description: 'Get the git message associated with the current SHA'
+inputs:
+  sha:
+    description: 'sha of the commit (defaults to the GITHUB_SHA environment variable)'
+    required: false
+outputs:
+  git-message:
+    description: 'The git message'
+runs:
+  using: 'node12'
+  main: 'index.js'

@@ -1,0 +1,29 @@
+{
+  "name": "git-message-action",
+  "version": "1.0.0",
+  "description": "Github Action for obtaining the git message of the commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kceb/git-message-action.git"
+  },
+  "keywords": [
+    "git",
+    "message",
+    "git-actions",
+    "actions"
+  ],
+  "author": "Kevin Ceballos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kceb/git-message-action/issues"
+  },
+  "homepage": "https://github.com/kceb/git-message-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.1"
+  }
+}
