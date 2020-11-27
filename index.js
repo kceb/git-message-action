@@ -8,6 +8,12 @@ try {
       throw err;
     }
     core.setOutput("git-message", stdout);
+
+    const lines = stdout.split("\n");
+    const title = lines.shift();
+    const body = lines.join("\n");
+    core.setOutput("title", title);
+    core.setOutput("body", body);
   });
 } catch (error) {
   core.setFailed(error.message);
