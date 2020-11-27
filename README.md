@@ -14,6 +14,14 @@ This action outputs the git message associated with the current SHA
 
 The git-message
 
+### `title`
+
+The title of the git-message, i.e. the first line
+
+### `body`
+
+The body of the git-message, i.e. everything but the first line
+
 ## Example usage
 Without SHA:
 ```
