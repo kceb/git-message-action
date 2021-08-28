@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/kceb/git-message-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.2",
+    "@actions/core": "^1.2.6",
     "shescape": "^1.2.1"
   }
 }
