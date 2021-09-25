@@ -7,9 +7,13 @@ inputs:
 outputs:
   git-message:
     description: 'The git message'
+  title:
+    description: 'The title of the git-message, i.e. the first line'
+  body:
+    description: 'The body of the git-message, i.e. everything but the first line'
 runs:
   using: 'node12'
   main: 'index.js'
 branding:
-  icon: 'git-commit'  
+  icon: 'git-commit'
   color: 'gray-dark'
