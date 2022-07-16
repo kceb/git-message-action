@@ -24,6 +24,6 @@
   "homepage": "https://github.com/kceb/git-message-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "shescape": "^1.2.1"
+    "shescape": "^1.5.8"
   }
 }
