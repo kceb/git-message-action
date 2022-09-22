@@ -27,13 +27,13 @@ The body of the git-message, i.e. everything but the first line
 Without SHA:
 
 ```yaml
-uses: kceb/git-message-action@v1
+uses: kceb/git-message-action@v2
 ```
 
 With specified SHA:
 
 ```yaml
-uses: kceb/git-message-action@v1
+uses: kceb/git-message-action@v2
 with:
   sha: '2905893ab6e5f2644201c2abc04e3d83bf317d9b'
 ```
