@@ -1,8 +1,10 @@
 const core = require('@actions/core');
 const { exec } = require('child_process');
-const { quote } = require('shescape');
+const { Shescape } = require('shescape');
 
 try {
+  const shescape = new Shescape({ shell: true });
+  const quote = shescape.quote.bind(shescape);
   const sha = core.getInput('sha') || process.env.GITHUB_SHA;
   exec(`git log --format=%B -n 1 ${quote(sha)}`, (err, stdout, stderr) => {
     if (err) {
