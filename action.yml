@@ -12,7 +12,7 @@ outputs:
   body:
     description: 'The body of the git-message, i.e. everything but the first line'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
 branding:
   icon: 'git-commit'
